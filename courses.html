@@ -49,7 +49,6 @@
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
-
                 </div>
                 <!-- toggle switch for light and dark theme -->
                 <div class="mobile-position">
@@ -118,7 +117,7 @@
                     <div class="causes-grid-info">
                         <img src="images/course_chinese.jpg" class="img-fuild" alt="">
                         <h5 class="cause-title mt-2">Chinese</h5>
-                        <p class="card-text mb-0">
+                        <p class="collapse card-text mb-0" id="chineseDetails">
                             We offer both Chinese as Heritage Language (CHL) classes
                             and Chinese as Second Language (CSL) classes.
                             For CHL classes, Ma Liping Chinese (马力平中文),
@@ -127,79 +126,97 @@
                             but we are open to other options too, should parents have other preferences.
                         </p>
 
-                        <a href="#" class="btn btn-style btn-primary mt-4">Read More</a>
+                        <a href="#chineseDetails" class="btn btn-style btn-primary mt-4" data-toggle="collapse"
+                            aria-expanded="false" aria-controls="chineseDetails">
+                            View Details &raquo;
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 causes-grid align-self-start">
                     <div class="causes-grid-info">
                         <img src="images/course_math.jpg" class="img-fuild" alt="">
                         <h5 class="cause-title mt-2">Math</h5>
-                        <p class="card-text mb-0">
+                        <p class="collapse card-text mb-0" id="mathDetails">
                             From pre-math count 1 to AMC 10, our math courses are taught by teachers
                             who love math and have years of teaching experience and who have
                             Master or Ph.D. degrees in stems degrees.
                         </p>
 
-                        <a href="#" class="btn btn-style btn-primary mt-4">Read More</a>
+                        <a href="#mathDetails" class="btn btn-style btn-primary mt-4" data-toggle="collapse"
+                            aria-expanded="false" aria-controls="mathDetails">
+                            View Details &raquo;
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 causes-grid align-self-start">
                     <div class="causes-grid-info">
                         <img src="images/course_english.jpg" class="img-fuild" alt="">
                         <h5 class="cause-title mt-2">English Reading & Writing</h5>
-                        <p class="card-text mb-0">
+                        <p class="collapse card-text mb-0" id="englishDetails">
                             English Reading and Writing classes are taught by Ben Fiedor,
                             who holds a Ph.D. of Philosophy degree from Brown University
                             and has many years of teaching and tutoring experience.
                         </p>
 
-                        <a href="#" class="btn btn-style btn-primary mt-4">Read More</a>
+                        <a href="#englishDetails" class="btn btn-style btn-primary mt-4" data-toggle="collapse"
+                            aria-expanded="false" aria-controls="englishDetails">
+                            View Details &raquo;
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 causes-grid align-self-start">
                     <div class="causes-grid-info">
                         <img src="images/course_chess.jpg" class="img-fuild" alt="">
                         <h5 class="cause-title mt-2">Chess</h5>
-                        <p class="card-text mb-0">
+                        <p class="collapse card-text mb-0" id="chessDetails">
                             Chess classes are taught by Gregory Rogers,
                             the founder and coach of Chess Masters of Delaware.
                             Mr. Rogers has led the students in the club to win many national and regional trophies.
                         </p>
 
-                        <a href="#" class="btn btn-style btn-primary mt-4">Read More</a>
+                        <a href="#chessDetails" class="btn btn-style btn-primary mt-4" data-toggle="collapse"
+                            aria-expanded="false" aria-controls="chessDetails">
+                            View Details &raquo;
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 causes-grid align-self-start">
                     <div class="causes-grid-info">
                         <img src="images/course_drawing.jpg" class="img-fuild" alt="">
                         <h5 class="cause-title mt-2">Drawing</h5>
-                        <p class="card-text mb-0">
+                        <p class="collapse card-text mb-0" id="drawingDetails">
                             In our drawing classes, our experienced art teacher guides the students to
                             explore basic drawing principles such as line, color, and texture and
                             develop painting techniques using various paint media.
                         </p>
 
-                        <a href="#" class="btn btn-style btn-primary mt-4">Read More</a>
+                        <a href="#drawingDetails" class="btn btn-style btn-primary mt-4" data-toggle="collapse"
+                            aria-expanded="false" aria-controls="drawingDetails">
+                            View Details &raquo;
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 causes-grid align-self-start">
                     <div class="causes-grid-info">
                         <img src="images/course_dancing.jpg" class="img-fuild" alt="">
                         <h5 class="cause-title mt-2">Dancing</h5>
-                        <p class="card-text mb-0">
+                        <p class="collapse card-text mb-0" id="dancingDetails">
                             Our dance classes teach Chinese Folk Dance and Contemporary dance.
                             Students learn dance and gain valuable performing experience through
                             participation in weekly classes and holiday performances.
                         </p>
 
-                        <a href="#" class="btn btn-style btn-primary mt-4">Read More</a>
+                        <a href="#dancingDetails" class="btn btn-style btn-primary mt-4" data-toggle="collapse"
+                            aria-expanded="false" aria-controls="dancingDetails">
+                            View Details &raquo;
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 causes-grid align-self-start">
                     <div class="causes-grid-info">
                         <img src="images/course_speaking.jpg" class="img-fuild" alt="">
                         <h5 class="cause-title mt-2">Public Speaking</h5>
-                        <p class="card-text mb-0">
+                        <p class="collapse card-text mb-0" id="publicSpeakingDetails">
                             Public speaking classes are taught by Mike Nie,
                             founder of “Speak to lead LLC”.
                             Coach Nie has won many awards in public speaking and is a distinguished toastmaster.
@@ -211,8 +228,10 @@
                             the coach both offline and during class.
                         </p>
 
-
-                        <a href="#" class="btn btn-style btn-primary mt-4">Read More</a>
+                        <a href="#publicSpeakingDetails" class="btn btn-style btn-primary mt-4" data-toggle="collapse"
+                            aria-expanded="false" aria-controls="publicSpeakingDetails">
+                            View Details &raquo;
+                        </a>
                     </div>
                 </div>
             </div>
