@@ -16281,8 +16281,29 @@ button.owl-next {
         font-weight: 700;
     }
 
+    .w3l-bottom-grids .bottomhny-gd-ingf .btn-sm {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+    }
+
     .w3l-bottom-grids .bottomhny-1-img {
-        background: url(../images/banner2.jpg) no-repeat top;
+        background: url(../images/course_scratch.jpg) no-repeat top;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        position: relative;
+        padding: 40px;
+        min-height: 350px;
+    }
+
+    .w3l-bottom-grids .bottomhny-2-img {
+        background: url(../images/course_coding.jpg) no-repeat top;
         background-size: cover;
         -webkit-background-size: cover;
         -o-background-size: cover;
